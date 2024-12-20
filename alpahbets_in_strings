@@ -19,10 +19,11 @@ int rep(char c[])
             {
                 n++;
             }
-            else if (n != 0)
-            {
-                printf("the alphabet %c occurs %d times\n", i, n);
-            }
+        }
+
+        if (n != 0)
+        {
+            printf("the alphabet %c occurs %d times\n", i, n);
         }
     }
 }
